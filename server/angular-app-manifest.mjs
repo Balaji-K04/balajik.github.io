@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/balajik.github.io/',
+  baseHref: '/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/balajik.github.io"
+    "route": "/"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 458, hash: '007c27a2b99eca4428160e0b14a74a7796a02499aeef94e7acd5ffd9f2664fe4', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 971, hash: 'e6e5ce6b0646cf3567ae6a19206663c74dacdbe933002af0db533b1ec8b360cf', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 21598, hash: '907952a18c6277e7194092efa443c9571f590f24d3b149b122dc6d52425ed621', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 440, hash: '0ae3a2520b171504d7652da5c66be575d9757b99247f47860326c260d203c0be', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 953, hash: '9e94f6b8c977085900456f4756c6a4b1597b874d1e1283b9afa9aa012e174d1b', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 21580, hash: '11de8316538067b7f50c9782f2a0acf9c89fd583be901661fbf35305669858ae', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

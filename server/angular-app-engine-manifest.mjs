@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/balajik.github.io',
+  basePath: '/',
   supportedLocales: {
   "en-US": ""
 },
